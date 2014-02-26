@@ -1,0 +1,57 @@
+#card-list .notify-card .msg-header {
+	font-size: 15px;
+	display: block;	
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	font-weight: 100;
+}
+
+#card-list .notify-card .msg {
+	font-size: 25px;
+	width:250px;
+	word-wrap: break-word;
+	display: block;	
+	position: absolute;
+	top: 65px;
+	left: 15px;
+	font-weight: 100;
+}
+
+#card-list .notify-card .msg2 {
+	font-size: 25px;
+	width:250px;
+	word-wrap: break-word;
+	display: block;	
+	position: absolute;
+	top: 95px;
+	left: 15px;
+	font-weight: 100;
+}
+
+#card-list .notify-card .count {
+	font-size: 12px;
+	display: block;	
+	position: absolute;
+	top: 117px;
+	left: 18px;
+	font-weight: 100;
+}
+
+#card-list .notify-card .tag {
+	font-size: 10px;
+	display: block;	
+	position: absolute;
+	top: 85px;
+	left: 15px;
+	font-weight: 100;
+}
+
+#card-list .notify-card .msg-footer {
+	font-size: 10px;
+	display: block;	
+	position: absolute;
+	top: 130px;
+	left: 180px;
+	font-weight: 100;
+}
