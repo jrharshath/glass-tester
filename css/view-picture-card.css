@@ -1,0 +1,31 @@
+#card-list .view-picture-card .view-picture {
+	font-size: 26px;
+	position: absolute;
+	top: 60px;
+	left: 86px;
+	font-weight: 100;
+}
+
+#card-list .view-picture-card .icon {
+	font-size: 30px;
+	position: absolute;
+	top: 48px;
+	left: 28px;
+}
+
+#card-list .view-picture-card .icon_microphone {
+	font-size: 30px;
+	position: absolute;
+	top: 90px;
+	left: 86px;
+}
+
+#card-list .view-picture-card .voice {
+	font-size: 11px;
+	position: absolute;
+	top: 85px;
+	left: 106px;
+	font-weight: 100;
+	width: 100px;
+	line-height: 25px;
+}

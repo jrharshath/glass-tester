@@ -1,0 +1,31 @@
+#card-list .mark-complete-card .mark-complete {
+	font-size: 22px;
+	position: absolute;
+	top: 60px;
+	left: 53px;
+	font-weight: 100;
+}
+
+#card-list .mark-complete-card .icon {
+	font-size: 30px;
+	position: absolute;
+	top: 52px;
+	left: 12px;
+}
+
+#card-list .mark-complete-card .icon_microphone {
+	font-size: 30px;
+	position: absolute;
+	top: 90px;
+	left: 52px;
+}
+
+#card-list .mark-complete-card .voice {
+	font-size: 11px;
+	position: absolute;
+	top: 85px;
+	left: 72px;
+	font-weight: 100;
+	width: 100px;
+	line-height: 25px;
+}

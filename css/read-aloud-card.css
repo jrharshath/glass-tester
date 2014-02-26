@@ -1,0 +1,31 @@
+#card-list .read-aloud-card .read-aloud {
+	font-size: 26px;
+	position: absolute;
+	top: 60px;
+	left: 85px;
+	font-weight: 100;
+}
+
+#card-list .read-aloud-card .icon {
+	font-size: 30px;
+	position: absolute;
+	top: 52px;
+	left: 28px;
+}
+
+#card-list .read-aloud-card .icon_microphone {
+	font-size: 30px;
+	position: absolute;
+	top: 90px;
+	left: 85px;
+}
+
+#card-list .read-aloud-card .voice {
+	font-size: 11px;
+	position: absolute;
+	top: 85px;
+	left: 105px;
+	font-weight: 100;
+	width: 100px;
+	line-height: 25px;
+}
