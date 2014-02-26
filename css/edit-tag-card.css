@@ -1,14 +1,14 @@
-#card-list .record-again-card .record-again {
+#card-list .edit-tag-card .edit-tag {
 	font-size: 26px;
 	position: absolute;
 	top: 60px;
-	left: 75px;
+	left: 100px;
 	font-weight: 100;
 }
 
-#card-list .record-again-card .icon {
+#card-list .edit-tag-card .icon {
 	font-size: 30px;
 	position: absolute;
 	top: 50px;
-	left: 25px;
+	left: 40px;
 }

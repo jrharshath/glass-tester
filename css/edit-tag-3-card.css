@@ -1,0 +1,118 @@
+#card-list .edit-tag-3-card .view {
+	font-size: 12px;
+	position: absolute;
+	top: 5px;
+	left: 8px;
+	font-weight: 100;
+	font-style: italic;
+	width: 200px;
+	line-height: 25px;
+}
+
+#card-list .edit-tag-3-card .highlight1 {
+	background-color: red;
+	position: absolute;
+	top: 32px;
+	left: 8px;
+	width: 10px;
+	height: 10px;
+}
+
+
+#card-list .edit-tag-3-card .highlight1_words {
+	position: absolute;
+	font-size: 12px;
+	top: 25px;
+	left: 22px;
+	width: 100px;
+	height: 10px;
+	text-decoration: line-through;
+}
+
+#card-list .edit-tag-3-card .highlight2 {
+	background-color: #00FF00;
+	position: absolute;
+	top: 72px;
+	left: 8px;
+	width: 10px;
+	height: 10px;
+}
+
+#card-list .edit-tag-3-card .highlight2_words {
+	position: absolute;
+	font-size: 12px;
+	top: 65px;
+	left: 22px;
+	width: 100px;
+	height: 10px;
+}
+
+#card-list .edit-tag-3-card .highlight3 {
+	background-color: #1976EC;
+	position: absolute;
+	top: 92px;
+	left: 8px;
+	width: 10px;
+	height: 10px;
+}
+
+#card-list .edit-tag-3-card .highlight3_words {
+	position: absolute;
+	font-size: 12px;
+	top: 85px;
+	left: 22px;
+	width: 100px;
+	height: 10px;
+}
+
+#card-list .edit-tag-3-card .highlight4 {
+	background-color: #ff37BA;
+	position: absolute;
+	top: 52px;
+	left: 8px;
+	width: 10px;
+	height: 10px;
+}
+
+#card-list .edit-tag-3-card .highlight4_words {
+	position: absolute;
+	font-size: 12px;
+	top: 45px;
+	left: 22px;
+	width: 100px;
+	height: 10px;
+}
+
+
+#card-list .edit-tag-3-card .icon_1 {
+	font-size: 30px;
+	position: absolute;
+	top: 48px;
+	left: 7px;
+	z-index: 5;
+}
+
+#card-list .edit-tag-3-card .icon_2 {
+	font-size: 30px;
+	position: absolute;
+	top: 125px;
+	left: 5px;
+}
+
+#card-list .edit-tag-3-card .icon_3 {
+	font-size: 30px;
+	position: absolute;
+	top: 68px;
+	left: 7px;
+	z-index: 5;
+}
+
+#card-list .edit-tag-3-card .save {
+	font-size: 12px;
+	position: absolute;
+	top: 120px;
+	left: 22px;
+	font-weight: 100;
+	width: 200px;
+	line-height: 25px;
+}

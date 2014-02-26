@@ -1,14 +1,32 @@
-#card-list .view-card .view{
+#card-list .capture-card .view{
 	font-size: 16px;
 	position: absolute;
 	top: 12px;
 	left: 15px;
 	font-weight: 100;
-	width:200px;
+	width:150px;
 	line-height: 25px;
 }
 
-#card-list .view-card .highlight1{
+#card-list .capture-card .saving {
+	font-size: 10px;
+	display: block;	
+	position: absolute;
+	top: 15px;
+	left: 165px;
+	font-weight: 100;
+}
+
+#card-list .capture-card .tab_for_options {
+	font-size: 10px;
+	display: block;	
+	position: absolute;
+	top: 50px;
+	left: 165px;
+	font-weight: 100;
+}
+
+#card-list .capture-card .highlight1{
 	background-color: #00FF00;
 	position: absolute;
 	top: 77px;
@@ -17,7 +35,7 @@
 	height: 10px;
 }
 
-#card-list .view-card .highlight1_words{
+#card-list .capture-card .highlight1_words{
 	position: absolute;
 	font-size: 12px;
 	top: 70px;
@@ -26,7 +44,7 @@
 	height: 10px;
 }
 
-#card-list .view-card .highlight2{
+#card-list .capture-card .highlight2{
 	background-color: red;
 	position: absolute;
 	top: 77px;
@@ -36,7 +54,7 @@
 }
 
 
-#card-list .view-card .highlight2_words{
+#card-list .capture-card .highlight2_words{
 	position: absolute;
 	font-size: 12px;
 	top: 70px;
@@ -45,7 +63,7 @@
 	height: 10px;
 }
 
-#card-list .view-card .footer_time {
+#card-list .capture-card .footer_time {
 	font-size: 11px;
 	position: absolute;
 	top: 120px;
@@ -55,7 +73,7 @@
 	line-height: 25px;
 }
 
-#card-list .view-card .footer_location {
+#card-list .capture-card .footer_location {
 	font-size: 11px;
 	position: absolute;
 	top: 120px;
@@ -65,17 +83,17 @@
 	line-height: 25px;
 }
 
-#card-list .view-card .footer_dots {
-	font-size: 11px;
+#card-list .capture-card .footer_dots {
+	font-size: 430px;
 	position: absolute;
 	top: 120px;
-	left: 226px;
+	left: 215px;
 	font-weight: 100;
 	width: 100px;
 	line-height: 25px;
 }
 
-#card-list .view-card .icon_bell {
+#card-list .capture-card .icon_bell {
 	font-size: 30px;
 	position: absolute;
 	top: 125px;
@@ -83,14 +101,14 @@
 	z-index: 5;
 }
 
-#card-list .view-card .icon_pin {
+#card-list .capture-card .icon_pin {
 	font-size: 30px;
 	position: absolute;
 	top: 125px;
 	left: 85px;
 }
 
-#card-list .view-card .icon_microphone {
+#card-list .capture-card .icon_microphone {
 	font-size: 30px;
 	position: absolute;
 	top: 125px;

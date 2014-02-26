@@ -15,6 +15,13 @@
 	<link href="css/add-picture-card.css" rel="stylesheet" media="screen">
 	<link href="css/cancel-card.css" rel="stylesheet" media="screen">
 	<link href="css/view-card.css" rel="stylesheet" media="screen">
+	<link href="css/edit-time-card.css" rel="stylesheet" media="screen">
+	<link href="css/edit-tag-card.css" rel="stylesheet" media="screen">
+	<link href="css/remove-picture-card.css" rel="stylesheet" media="screen">
+	<link href="css/edit-tag-1-card.css" rel="stylesheet" media="screen">
+	<link href="css/edit-tag-2-card.css" rel="stylesheet" media="screen">
+	<link href="css/edit-tag-3-card.css" rel="stylesheet" media="screen">
+	<link href="css/capture-card.css" rel="stylesheet" media="screen">
 </head>
 <body>
 	<div class='container-fluid'>
@@ -111,23 +118,112 @@
 					<li class='cancel-card'>
 						<h2>cancel card</h2>
 						 <div class='card'>
-							<img src="icons/camera.png" height="42" width="42" class="icon">
+							<img src="icons/cross.png" height="42" width="42" class="icon">
 							<span class="cancel">Cancel</span>
+						</div>
+					</li>
+					
+					<li class='edit-time-card'>
+						<h2>edit time card</h2>
+						 <div class='card'>
+							<img src="icons/clock.png" height="42" width="42" class="icon">
+							<span class="edit-time">Edit Time</span>
+						</div>
+					</li>
+					
+					<li class='remove-picture-card'>
+						<h2>remove picture card</h2>
+						 <div class='card'>
+							<img src="icons/stopsign.png" height="32" width="32" class="icon">
+							<span class="remove-picture">Remove Picture</span>
+						</div>
+					</li>
+					
+					<li class='edit-tag-card'>
+						<h2>edit tag card</h2>
+						 <div class='card'>
+							<img src="icons/tag.png" height="42" width="42" class="icon">
+							<span class="edit-tag">Edit Tag</span>
+						</div>
+					</li>
+					
+					<li class='edit-tag-1-card'>
+						<h2>edit tag card - 1</h2>
+						 <div class='card'>
+							<span class="view">+ create a new tag</span>
+							
+							<div class="highlight1"></div>
+							<div class="highlight1_words" contenteditable>grocery</div>
+							<img src="icons/check.png" height="16" width="16" class="icon_1">
+							<div class="highlight2"></div>
+							<div class="highlight2_words" contenteditable>shopping</div>
+							<div class="highlight3"></div>
+							<div class="highlight3_words" contenteditable>work</div>
+							
+							<img src="icons/check.png" height="16" width="16" class="icon_2">
+							<span class="save">Save</span>
+						</div>
+					</li>
+
+					<li class='edit-tag-2-card'>
+						<h2>edit tag card - 2</h2>
+						 <div class='card'>
+							<img src="icons/microphone.png" height="16" width="16" class="icon_1">
+							<span class="view">Speak to record a new tag...</span>
+							
+							<img src="icons/check.png" height="16" width="16" class="icon_2">
+							<span class="save">Save</span>
+						</div>
+					</li>
+
+					<li class='edit-tag-3-card'>
+						<h2>edit tag card - 3</h2>
+						 <div class='card'>
+							<span class="view">+ create a new tag</span>
+							
+							<div class="highlight1"></div>
+							<div class="highlight1_words" contenteditable>grocery</div>
+							<img src="icons/check.png" height="16" width="16" class="icon_1">
+							<div class="highlight4"></div>
+							<div class="highlight4_words" contenteditable>home</div>
+							<img src="icons/check.png" height="16" width="16" class="icon_3">
+							<div class="highlight2"></div>
+							<div class="highlight2_words" contenteditable>shopping</div>
+							<div class="highlight3"></div>
+							<div class="highlight3_words" contenteditable>work</div>
+							
+							<img src="icons/check.png" height="16" width="16" class="icon_2">
+							<span class="save">Save</span>
 						</div>
 					</li>
 
 					<li class='view-card'>
 						<h2>view card</h2>
 						 <div class='card'>
-							<span class="view">buy milk eggs at publix tomorrow</span>
+							<span class="view">buy milk eggs and butter at publix tomorrow</span>
 							<div class="highlight1"></div><div class="highlight1_words">shopping</div>
 							<div class="highlight2"></div><div class="highlight2_words">grocery</div>
-							<img src="icons/icon_14059_.png" height="42" width="42" class="icon">
-							<span class="save">tomorrow</span>
-							<img src="icons/icon_14059_.png" height="42" width="42" class="icon">
-							<span class="save">Publix, Atlantic Station</span>
-							<img src="icons/icon_14059_.png" height="42" width="42" class="icon">
-							<span class="save">···</span>
+							<img src="icons/bell.png" height="16" width="16" class="icon_bell">
+							<span class="footer_time">tomorrow</span>
+							<img src="icons/pin.png" height="16" width="16" class="icon_pin">
+							<span class="footer_location">Publix, Atlantic Station</span>
+							<img src="icons/microphone.png" height="16" width="16" class="icon_microphone">
+							<span class="footer_dots">···</span>
+						</div>
+					</li>
+					
+					<li class='capture-card'>
+						<h2>capture card</h2>
+						 <div class='card'>
+							<span class="view">buy milk at publix tomorrow</span>
+							<span class="saving">Saving...</span>
+							<span class="tab_for_options">(tap for options)</span>
+							<div class="highlight1"></div><div class="highlight1_words">shopping</div>
+							<div class="highlight2"></div><div class="highlight2_words">grocery</div>
+							<img src="icons/bell.png" height="16" width="16" class="icon_bell">
+							<span class="footer_time">tomorrow</span>
+							<img src="icons/pin.png" height="16" width="16" class="icon_pin">
+							<span class="footer_location">Publix, Atlantic Station</span>
 						</div>
 					</li>
 
