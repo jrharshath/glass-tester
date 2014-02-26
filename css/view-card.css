@@ -1,0 +1,35 @@
+#card-list .view-card .view{
+	font-size: 18px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	font-weight: 100;
+	width:200px;
+	line-height: 25px;
+}
+
+#card-list .view-card .highlight1{
+	background-color: #00FF00;
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	width: 10px;
+	height: 10px;
+}
+
+#card-list .view-card .highlight1_words{
+	position: absolute;
+	top: 74px;
+	left: 35px;
+	width: 10px;
+	height: 10px;
+}
+
+#card-list .view-card .highlight2{
+	background-color: red;
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	width: 10px;
+	height: 10px;
+}
