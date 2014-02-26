@@ -1,0 +1,14 @@
+#card-list .record-again-card .record-again {
+	font-size: 26px;
+	position: absolute;
+	top: 60px;
+	left: 68px;
+	font-weight: 100;
+}
+
+#card-list .record-again-card .icon {
+	font-size: 30px;
+	position: absolute;
+	top: 50px;
+	left: 28px;
+}

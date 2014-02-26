@@ -1,0 +1,14 @@
+#card-list .cancel-card .cancel {
+	font-size: 30px;
+	position: absolute;
+	top: 60px;
+	left: 110px;
+	font-weight: 100;
+}
+
+#card-list .cancel-card .icon {
+	font-size: 30px;
+	position: absolute;
+	top: 50px;
+	left: 55px;
+}

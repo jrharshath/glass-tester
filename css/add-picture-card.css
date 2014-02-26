@@ -1,0 +1,14 @@
+#card-list .add-picture-card .add-picture {
+	font-size: 26px;
+	position: absolute;
+	top: 60px;
+	left: 90px;
+	font-weight: 100;
+}
+
+#card-list .add-picture-card .icon {
+	font-size: 30px;
+	position: absolute;
+	top: 50px;
+	left: 35px;
+}
