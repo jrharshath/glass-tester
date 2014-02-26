@@ -1,6 +1,57 @@
 <html>
-<head><title>Glass Tester</title></head>
+<head>
+	<title>Glass Tester</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	<link href="css/gtt.css" rel="stylesheet" media="screen">
+	<link href="css/home-card.css" rel="stylesheet" media="screen">
+	<link href="css/ok-glass-card.css" rel="stylesheet" media="screen">
+</head>
 <body>
-	<h1>Hello World!</h1>
+	<div class='container-fluid'>
+		<div class='row-fluid' style='margin-top: 20px'>
+			
+			<div class='row-fluid'>
+				<div class='span10'><h1>Glass Testing Tool</h1></div>
+				<div class='span2'><h3><a href='#'>Start Testing</a><h3></div>
+			</div>
+
+			<div class='row-fluid'>
+				<ul id='card-list'>
+					
+					<li class='home-card'>
+						<h2>Home card</h2>
+						<div class='card'>
+							<span class='time'>10:00am</span>
+							<span class='ok'>"ok glass"</span>
+						</div>
+					</li>
+
+					<li class='ok-glass-card'>
+						<h2>"ok glass" card</h2>
+						<div class='card'>
+							<span class='okglass'>ok glass,</span>
+							<div class='options'>
+								take a picture<br/>
+								record a video<br/>
+								add a task<br/>
+								show my tasks<br/>
+							</div>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
+	

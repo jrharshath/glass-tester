@@ -1,0 +1,11 @@
+#card-list .ok-glass-card .okglass {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+#card-list .ok-glass-card .options {
+	position: absolute;
+	top: 20px;
+	left: 70px;
+}
