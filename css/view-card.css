@@ -35,10 +35,17 @@
 	height: 10px;
 }
 
+#card-list .view-card .highlight2_words{
+	position: absolute;
+	font-size: 12px;
+	top: 70px;
+	left: 108px;
+	width: 10px;
+	height: 10px;
+}
 
 #card-list .view-card .bottomtext{
 	position: absolute;
-<<<<<<< HEAD
 	font-size: 12px;
 	top: 70px;
 	left: 108px;
@@ -97,10 +104,3 @@
 	top: 125px;
 	left: 210px;
 }
-=======
-	top: 65px;
-	left: 32px;
-	width: 10px;
-	height: 10px;
-}
->>>>>>> 8820eca5877d20f6f106a6d6f76e010057ddbb4e
