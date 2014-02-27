@@ -35,10 +35,10 @@
 }
 
 
-#card-list .view-card .highlight2_words{
+#card-list .view-card .bottomtext{
 	position: absolute;
 	top: 65px;
-	left: 115px;
+	left: 32px;
 	width: 10px;
 	height: 10px;
 }
