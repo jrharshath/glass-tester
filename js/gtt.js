@@ -8,7 +8,9 @@ $(function() {
 		console.log('showing card');
 		if(W !== null) { 
 			console.log('W not null');
-			W.showCard( $(this).closest('li').find('.card').clone() );
+			var cardclone = $(this).closest('li').clone();
+			cardclone.find('h2').remove();
+			W.showCard(cardclone);
 		}
 	})
 });

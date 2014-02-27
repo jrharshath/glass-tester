@@ -18,15 +18,14 @@
 </head>
 <body>
 	<ul id='card-list'>
-		<li id='display'>
-		</li>
+		
 	</ul>
 
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script>
 	window.showCard = function($c) {
-		$('#display').empty().append($c);
+		$('#card-list').empty().append($c);
 	}
 	</script>
 </body>
