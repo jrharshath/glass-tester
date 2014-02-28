@@ -37,13 +37,16 @@
 			
 			<div class='row-fluid'>
 				<div class='span10'><h1>Glass Testing Tool</h1></div>
-				<div class='span2'><h3><a id='start-testing' href='#'>Start Testing</a><h3></div>
+				<div class='span2'>
+					<h3><a id='start-testing' href='#'>Start Testing</a></h3>
+					<a id='clear-positions' href='#'>Clear stored positions</a>
+				</div>
 			</div>
 
 			<div class='row-fluid'>
 				<ul id='card-list'>
 					
-					<li class='home-card'>
+					<li class='home-card' id='home-card'>
 						<h2>Home card</h2>
 						<div class='card'>
 							<span class='time'>10:00am</span>
@@ -51,7 +54,7 @@
 						</div>
 					</li>
 
-					<li class='ok-glass-card'>
+					<li class='ok-glass-card' id='ok-glass-card'>
 						<h2>"ok glass" card</h2>
 						<div class='card'>
 							<span class='okglass'>ok glass,</span>
@@ -63,35 +66,9 @@
 							</div>
 						</div>
 					</li>
-					<li class='ok-glass-card'>
-						<h2>"ok glass" card1</h2>
-						<div class='card'>
-							<span class='okglass'>ok glass,</span>
-							<div class='options'>
-								take a picture<br/>
-								record a video<br/>
-								<strong>add a task</strong><br/>
-								show my tasks<br/>
-								<span class="say" contenteditable>"Remind me to buy milk at Publix tomorrow"</span><br/>
-							</div>
-						</div>
-					</li>
-					<li class='ok-glass-card'>
-						<h2>"ok glass" card2</h2>
-						<div class='card'>
-							<span class='okglass'>ok glass,</span>
-							<div class='options'>
-								take a picture<br/>
-								record a video<br/>
-								add a task<br/>
-								<strong>show my tasks</strong><br/>
-								<span class="say">"Show my tasks"</span><br/>
-							</div>
-						</div>
-					</li>
 					
-					<li class='notify-card'>
-						<h2>Notify Base - Time</h2>
+					<li class='notify-card' id='notify-by-time-card'>
+						<h2>Notify Time</h2>
 						<div class='card'>
 							<span class='msg-header' contenteditable>Due by: noon (in 20 minutes)</span>
 							<span class='msg' contenteditable>email chris at noon</span>
@@ -102,8 +79,9 @@
 							<span class='msg-footer'>(tap for options)</span>
 						</div>
 					</li>
-					<li class='notify-card'>
-						<h2>Notify Base - Location</h2>
+
+					<li class='notify-card' id='notify-by-location-card'>
+						<h2>Notify Location</h2>
 						<div class='card'>
 							<span class='msg-header' contenteditable>Tasks in Publix, Atlantic Station</span>
 							<span class='msg' contenteditable>buy milk, eggs and b...</span>
@@ -114,8 +92,9 @@
 							<span class='msg-footer'>(tap for options)</span>
 						</div>
 					</li>
-					<li class='notify-card'>
-						<h2>Notify List</h2>
+
+					<li class='notify-card' id='notify-by-lcation-multiple-card'>
+						<h2>Notify Location Multiple</h2>
 						<div class='card'>
 							<span class='msg-header' contenteditable>Tasks in Atlantic Station</span>
 							<span class='msg' contenteditable>buy milk, eggs and b...</span>
@@ -125,7 +104,7 @@
 						</div>
 					</li>
 
-					<li class='save-card'>
+					<li class='save-card' id='save-card'>
 						<h2>save card</h2>
 						 <div class='card'>
 							<img src="icons/check.png" height="42" width="42" class="icon">
@@ -134,7 +113,7 @@
 					</li>
 				
 
-					<li class='record-again-card'>
+					<li class='record-again-card' id='record-again-card'>
 						<h2>record again card</h2>
 						 <div class='card'>
 							<img src="icons/microphone.png" height="42" width="42" class="icon">
@@ -142,7 +121,7 @@
 						</div>
 					</li>
 
-					<li class='add-picture-card'>
+					<li class='add-picture-card' id='add-picture-card'>
 						<h2>add picture card</h2>
 						 <div class='card'>
 							<img src="icons/camera.png" height="42" width="42" class="icon">
@@ -150,7 +129,7 @@
 						</div>
 					</li>
 
-					<li class='cancel-card'>
+					<li class='cancel-card' id='cancel-card'>
 						<h2>cancel card</h2>
 						 <div class='card'>
 							<img src="icons/cross.png" height="42" width="42" class="icon">
@@ -158,7 +137,7 @@
 						</div>
 					</li>
 					
-					<li class='edit-time-card'>
+					<li class='edit-time-card' id='edit-time-card'>
 						<h2>edit time card</h2>
 						 <div class='card'>
 							<img src="icons/clock.png" height="42" width="42" class="icon">
@@ -166,7 +145,7 @@
 						</div>
 					</li>
 					
-					<li class='remove-picture-card'>
+					<li class='remove-picture-card' id='remove-picture-card'>
 						<h2>remove picture card</h2>
 						 <div class='card'>
 							<img src="icons/stopsign.png" height="32" width="32" class="icon">
@@ -174,7 +153,7 @@
 						</div>
 					</li>
 					
-					<li class='edit-tag-card'>
+					<li class='edit-tag-card' id='edit-tag-card'>
 						<h2>edit tag card</h2>
 						 <div class='card'>
 							<img src="icons/tag.png" height="42" width="42" class="icon">
@@ -182,7 +161,7 @@
 						</div>
 					</li>
 					
-					<li class='edit-tag-1-card'>
+					<li class='edit-tag-1-card' id='edit-tag-1-card'>
 						<h2>edit tag card - 1</h2>
 						 <div class='card'>
 							<span class="view">+ create a new tag</span>
@@ -200,7 +179,7 @@
 						</div>
 					</li>
 
-					<li class='edit-tag-2-card'>
+					<li class='edit-tag-2-card' id='edit-tag-2-card'>
 						<h2>edit tag card - 2</h2>
 						 <div class='card'>
 							<img src="icons/microphone.png" height="16" width="16" class="icon_1">
@@ -211,7 +190,7 @@
 						</div>
 					</li>
 
-					<li class='edit-tag-3-card'>
+					<li class='edit-tag-3-card' id='edit-tag-3-card'>
 						<h2>edit tag card - 3</h2>
 						 <div class='card'>
 							<span class="view">+ create a new tag</span>
@@ -232,7 +211,7 @@
 						</div>
 					</li>
 
-					<li class='view-card'>
+					<li class='view-card' id='view-card'>
 						<h2>view card</h2>
 						 <div class='card'>
 							<span class="view" contenteditable>buy milk eggs and butter at publix tomorrow</span>
@@ -247,7 +226,7 @@
 						</div>
 					</li>
 					
-					<li class='capture-card'>
+					<li class='capture-card' id='capture-card'>
 						<h2>capture card</h2>
 						 <div class='card'>
 							<span class="view" contenteditable>buy milk at publix tomorrow</span>
@@ -262,7 +241,7 @@
 						</div>
 					</li>
 					
-					<li class='mark-complete-card'>
+					<li class='mark-complete-card' id='mark-complete-card'>
 						<h2>mark complete card</h2>
 						 <div class='card'>
 							<img src="icons/check.png" height="38" width="38" class="icon">
@@ -272,7 +251,7 @@
 						</div>
 					</li>
 
-					<li class='view-picture-card'>
+					<li class='view-picture-card'  id='view-picture-card'>
 						<h2>view picture card</h2>
 						 <div class='card'>
 							<img src="icons/camera.png" height="42" width="42" class="icon">
@@ -282,7 +261,7 @@
 						</div>
 					</li>
 
-					<li class='read-aloud-card'>
+					<li class='read-aloud-card'  id='read-aloud-card'>
 						<h2>read aloud card</h2>
 						 <div class='card'>
 							<img src="icons/murmur.png" height="42" width="42" class="icon">
@@ -292,7 +271,7 @@
 						</div>
 					</li>
 					
-					<li class='edit-time-date-card'>
+					<li class='edit-time-date-card'  id='edit-date-time-card'>
 						<h2>edit time date card</h2>
 						 <div class='card'>
 							<img src="icons/clock.png" height="42" width="42" class="icon">
@@ -301,7 +280,7 @@
 							<span class="voice">"edit time"</span>
 						</div>
 					</li>
-					<li class='edit-time-date-card'>
+					<li class='edit-time-date-card' id='edit-location-card'>
 						<h2>edit location card</h2>
 						 <div class='card'>
 							<img src="icons/pin.png" height="42" width="42" class="icon">
@@ -311,7 +290,7 @@
 						</div>
 					</li>
 					
-					<li class='create-new-tag-card'>
+					<li class='create-new-tag-card' id='create-new-tag-card'>
 						<h2>create new tag card</h2>
 						 <div class='card'>
 							<span class="view">+ create a new tag</span>
@@ -327,8 +306,8 @@
 						</div>
 					</li>
 
-					<li class='create-new-task-card'>
-						<h2>create new task card</h2>
+					<li class='create-new-task-card' id='task-list-card'>
+						<h2>Task List card</h2>
 						 <div class='card'>
 							<span class="view">+ create a new task</span>
 							
@@ -336,7 +315,7 @@
 							<div class="highlight1_words" contenteditable>email Chris at noon</div>
 							<img src="icons/bell.png" height="12" width="12" class="icon_120">
 							<img src="icons/pin.png" height="12" width="12" class="icon_12">
-							<div class="highlight2_words" contenteditable><strong>buy milk bread eggs and butter...</strong></div>
+							<div class="highlight2_words" contenteditable>buy milk bread eggs and butter...</div>
 							<img src="icons/bell.png" height="12" width="12" class="icon_13">
 							<div class="highlight3_words" contenteditable>apply for a driving license by four...</div>
 							<img src="icons/pin.png" height="12" width="12" class="icon_14">
@@ -349,7 +328,7 @@
 						</div>
 					</li>
 
-					<li class='show-tagged-card'>
+					<li class='show-tagged-card' id='showing-tagged-task-card'>
 						<h2>showing tagged task</h2>
 						 <div class='card'>
 						 	<div class="highlight1"></div>
@@ -361,7 +340,7 @@
 							<div class="highlight3_words" contenteditable>buy fruit when I'm at publix</div>
 						</div>
 					</li>
-					<li class='show-pic-card'>
+					<li class='show-pic-card'  id='showing-picture-card'>
 						<h2>showing picture</h2>
 						 <div class='card'>
 						 	<img src="img/image.jpeg" height="195" width="195" class="icon_13">
@@ -369,7 +348,7 @@
 						</div>
 					</li>
 
-					<li class='notify-card'>
+					<li class='notify-card' id='add-item-general'>
 						<h2>Add Item - General</h2>
 						<div class='card'>
 							<span class='msg-header'>buy milk, eggs and butter at publix tomorrow</span>
@@ -389,7 +368,8 @@
 							<span class='msg-footer3b'><img src="./icons/icon_11936.png" width="15" height="15" alt="tomorrow"/></span>
 						</div>
 					</li>
-					<li class='notify-card'>
+
+					<li class='notify-card'  id='add-item-location'>
 						<h2>Add Item - Location</h2>
 						<div class='card'>
 							<span class='msg-header'>get new running shoes</span>
@@ -403,7 +383,8 @@
 							<span class='msg-footer3b'><img src="./icons/icon_11936.png" width="15" height="15" alt="tomorrow"/></span>
 						</div>
 					</li>
-					<li class='notify-card'>
+
+					<li class='notify-card' id='dismiss-recminder-card'>
 						<h2>Dismiss Reminder</h2>
 						<div class='card'>
 							<span class='msg3b'><img src="./icons/icon_18932.png" width="15" height="15" alt="tomorrow"/></span>
@@ -412,7 +393,8 @@
 							<span class='msg3c'>"dismiss"</span>
 						</div>
 					</li>
-					<li class='notify-card'>
+
+					<li class='notify-card' id='snooze-card'>
 						<h2>Snooze</h2>
 						<div class='card'>
 							<span class='msg4b'><img src="./icons/icon_3020.png" width="15" height="15" alt="tomorrow"/></span>
@@ -421,7 +403,8 @@
 							<span class='msg3c'>"snooze"</span>
 						</div>
 					</li>
-					<li class='notify-card'>
+
+					<li class='notify-card' id='mark-complete-card'>
 						<h2>Mark as Complete</h2>
 						<div class='card'>
 							<span class='msg3b'><img src="./icons/icon_14059.png" width="15" height="15" alt="tomorrow"/></span>
@@ -430,7 +413,8 @@
 							<span class='msg3c'>"done"</span>
 						</div>
 					</li>
-					<li class='notify-card'>
+
+					<li class='notify-card' id='weather-card'>
 						<h2>Weather</h2>
 						<div class='card'>
 							<span class='msg-header'>Take an umbrella!</span>
@@ -438,7 +422,8 @@
 							<span class='msg-footer'>(tap for options)</span>
 						</div>
 					</li>
-					<li class='notify-card'>
+
+					<li class='notify-card' id='agenda-card'>
 						<h2>Agenda List</h2>
 						<div class='card'>
 							<span class='msg-header'>Today's Agenda as of 8am</span>
@@ -450,7 +435,8 @@
 							<span class='msg-footer'>(tap for options)</span>
 						</div>
 					</li>
-					<li class='notify-card'>
+
+					<li class='notify-card' id='agenda-with-weather-card'>
 						<h2>Agenda List - Selection</h2>
 						<div class='card'>
 							<span class='msg-header'>Today's Agenda as of 8am</span>
@@ -461,7 +447,8 @@
 							<span class='msg-footer'>(tap for options)</span>
 						</div>
 					</li>
-					<li class='notify-card'>
+
+					<li class='notify-card' id='progress-card'>
 						<h2>Progress List</h2>
 						<div class='card'>
 							<span class='msg-header'>Today's Agenda as of 8am</span>
@@ -478,6 +465,8 @@
 
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.drags.js"></script>
+	<script src="js/jquery.cookie.js"></script>
 	<script src="js/gtt.js"></script>
 </body>
 </html>
