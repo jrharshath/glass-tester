@@ -1,0 +1,13 @@
+#card-list .show-pic-card .words {
+	font-size: 13px;
+	position: absolute;
+	top: 125px;
+	left: 125px;
+	font-weight: 100;
+	z-index: 1;
+}
+
+#card-list .show-pic-card .icon_13 {
+	position: absolute;
+	left: 25px;
+}

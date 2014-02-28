@@ -1,0 +1,85 @@
+
+#card-list .show-tagged-card .highlight1 {
+	background-color: red;
+	position: absolute;
+	top: 18px;
+	left: 18px;
+	width: 10px;
+	height: 10px;
+}
+
+
+
+#card-list .show-tagged-card .highlight1_words {
+	position: absolute;
+	font-size: 13px;
+	top: 13px;
+	left: 32px;
+	width: 150px;
+	height: 10px;
+}
+
+
+#card-list .show-tagged-card .highlight2_words {
+	position: absolute;
+	font-size: 12px;
+	top: 35px;
+	left: 32px;
+	width: 200px;
+	height: 10px;
+}
+
+
+
+#card-list .show-tagged-card .highlight3_words {
+	position: absolute;
+	font-size: 12px;
+	top: 55px;
+	left: 32px;
+	width: 200px;
+	height: 10px;
+}
+
+
+#card-list .show-tagged-card .icon_120 {
+	font-size: 30px;
+	position: absolute;
+	top: 40px;
+	left: 5px;
+	z-index: 5;
+}
+#card-list .show-tagged-card .icon_12 {
+	font-size: 30px;
+	position: absolute;
+	top: 40px;
+	left: 17px;
+	z-index: 5;
+}
+#card-list .show-tagged-card .icon_13 {
+	font-size: 30px;
+	position: absolute;
+	top: 60px;
+	left: 17px;
+	z-index: 5;
+}
+
+
+#card-list .show-tagged-card .save1 {
+	font-size: 12px;
+	position: absolute;
+	top: 115px;
+	left: 18px;
+	font-weight: 100;
+	width: 200px;
+	line-height: 25px;
+}
+
+#card-list .show-tagged-card .save {
+	font-size: 12px;
+	position: absolute;
+	top: 115px;
+	left: 155px;
+	font-weight: 100;
+	width: 200px;
+	line-height: 25px;
+}

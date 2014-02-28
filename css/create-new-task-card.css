@@ -1,0 +1,130 @@
+#card-list .create-new-task-card .view {
+	font-size: 12px;
+	position: absolute;
+	top: 5px;
+	left: 18px;
+	font-weight: 100;
+	font-style: italic;
+	width: 200px;
+	line-height: 25px;
+}
+
+
+#card-list .create-new-task-card .highlight1_words {
+	position: absolute;
+	font-size: 12px;
+	top: 25px;
+	left: 32px;
+	width: 100px;
+	height: 10px;
+}
+
+
+#card-list .create-new-task-card .highlight2_words {
+	position: absolute;
+	font-size: 12px;
+	top: 45px;
+	left: 32px;
+	width: 200px;
+	height: 10px;
+}
+
+
+
+#card-list .create-new-task-card .highlight3_words {
+	position: absolute;
+	font-size: 12px;
+	top: 65px;
+	left: 32px;
+	width: 200px;
+	height: 10px;
+}
+
+#card-list .create-new-task-card .highlight4_words {
+	position: absolute;
+	font-size: 12px;
+	top: 86px;
+	left: 32px;
+	width: 200px;
+	height: 10px;
+}
+
+
+#card-list .create-new-task-card .highlight5_words {
+	position: absolute;
+	font-size: 10px;
+	top: 105px;
+	left: 32px;
+	width: 100px;
+	height: 10px;
+}
+
+#card-list .create-new-task-card .icon_11 {
+	font-size: 30px;
+	position: absolute;
+	top: 30px;
+	left: 17px;
+	z-index: 5;
+}
+#card-list .create-new-task-card .icon_120 {
+	font-size: 30px;
+	position: absolute;
+	top: 50px;
+	left: 5px;
+	z-index: 5;
+}
+#card-list .create-new-task-card .icon_12 {
+	font-size: 30px;
+	position: absolute;
+	top: 50px;
+	left: 17px;
+	z-index: 5;
+}
+#card-list .create-new-task-card .icon_13 {
+	font-size: 30px;
+	position: absolute;
+	top: 70px;
+	left: 17px;
+	z-index: 5;
+}
+#card-list .create-new-task-card .icon_14 {
+	font-size: 30px;
+	position: absolute;
+	top: 90px;
+	left: 17px;
+	z-index: 5;
+}
+#card-list .create-new-task-card .icon_1 {
+	font-size: 30px;
+	position: absolute;
+	top: 130px;
+	left: 2px;
+}
+
+
+#card-list .create-new-task-card .icon_2 {
+	font-size: 30px;
+	position: absolute;
+	top: 130px;
+	left: 230px;
+}
+
+#card-list .create-new-task-card .save1 {
+	font-size: 12px;
+	position: absolute;
+	top: 125px;
+	left: 18px;
+	font-weight: 100;
+	width: 200px;
+	line-height: 25px;
+}
+
+#card-list .create-new-task-card .save {
+	font-size: 12px;
+	position: absolute;
+	top: 125px;
+	left: 155px;
+	font-weight: 100;
+	width: 200px;
+	line-height: 25px;
+}
